@@ -1,0 +1,21 @@
+Till Antonsen
+
+Efter att du fått upp repot lokalt (git clone <ssh-länken>) så gäller detta när du ändrat i koden:
+Kör ofta git status i samband med att du commitar, då kan du se vilka filer du förändrar i repot. Det är viktigt!
+kör:
+`git status`
+`git pull`
+`git status`
+
+`git add <namn på filerna du skapat separerade med ' '>`
+t.ex.
+`git add README.md EddeSuger.py`
+eller
+`git add -u` om du vill uppdatera alla filer som redan finns i repot och inte lägga till fler filer
+
+`git commit -m 'meddelande som specificerar de förändringar du gjort'` Här låser du vilka filer som pushas med detta meddelande
+`git status`
+`git push`
+
+Sen tar jag hand om resten
+Mvh Filip
