@@ -9,3 +9,7 @@ def index():
 @app.route("/Ehsan/")
 def page():
     return "Ehsan är lite bättre"
+
+@app.route("/Edde/")
+def page():
+    return "Tur att Edde inte rör den här koden"
