@@ -11,5 +11,5 @@ def page():
     return "Ehsan är lite bättre"
 
 @app.route("/Edde/")
-def page():
+def pagedondinho():
     return "Tur att Edde inte rör den här koden"
